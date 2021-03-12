@@ -1,0 +1,9 @@
+<div class="flex">
+  <app-parent-one></app-parent-one>
+  <app-parent-two></app-parent-two>
+  <div>
+    <p *ngFor="let loggingMessage of getLoggingMessage(); let i = index" >{{i + 1}}) {{loggingMessage}}</p>
+  </div>
+</div>
+
+
